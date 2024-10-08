@@ -6,6 +6,8 @@ import LastHolidaysSection from '../../Components/LastHolidaysSection/LastHolida
 import RecommendedSection from '../../Components/RecommendedSection/RecommendedSection';
 import HolidayPlanSection from '../../Components/HolidayPlanSection/HolidayPlanSection';
 import FavouritesSection from '../../Components/FavouritesSection/FavouritesSection';
+import RecentHolidays from '../../Components/RecentHolidays/RecentHolidays';
+import NeedInspirationSection from '../../Components/NeedInspiration/NeedInspirationSection';
 
 function Home() {
     return (
@@ -18,6 +20,8 @@ function Home() {
         </div>
         <HolidayPlanSection itemHolidayPlanTitle='Plan your summer holiday' />
         <FavouritesSection />
+        <RecentHolidays /> 
+        <NeedInspirationSection />
     </div>
     )
 }
