@@ -12,7 +12,7 @@ let AmsterdamCityBreaksItems = [
         itemTitle: 'Amsterdam hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '2 nights',
-        itemPrice: '£499'
+        itemPrice: 'R11427'
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ let AmsterdamCityBreaksItems = [
         itemTitle: 'Yellow hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '3 nights',
-        itemPrice: '£599'
+        itemPrice: 'R13700'
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ let AmsterdamCityBreaksItems = [
         itemTitle: 'Old hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '3 nights',
-        itemPrice: '£799'
+        itemPrice: 'R18200'
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ let AmsterdamCityBreaksItems = [
         itemTitle: 'Golden hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '3 nights',
-        itemPrice: '£399'
+        itemPrice: 'R9100'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ let AmsterdamCityBreaksItems = [
         itemTitle: 'Vintage hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '2 nights',
-        itemPrice: '£499'
+        itemPrice: 'R11420'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ let AmsterdamCityBreaksItems = [
         itemTitle: 'Bimhuis hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '3 nights',
-        itemPrice: '£299'
+        itemPrice: 'R18400'
     }
 ];
 

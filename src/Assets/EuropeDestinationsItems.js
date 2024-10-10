@@ -12,7 +12,7 @@ let EuropeDestinationsItems = [
         itemTitle: 'Amsterdam hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '5 nights',
-        itemPrice: '£799'
+        itemPrice: 'R18200'
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ let EuropeDestinationsItems = [
         itemTitle: 'London hotel',
         itemSubTitle: 'London, UK',
         itemNights: '7 nights',
-        itemPrice: '£1399'
+        itemPrice: 'R32000'
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ let EuropeDestinationsItems = [
         itemTitle: 'Paris hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '6 nights',
-        itemPrice: '£999'
+        itemPrice: 'R22800'
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ let EuropeDestinationsItems = [
         itemTitle: 'Golden hotel',
         itemSubTitle: 'Netherlands, Amsterdam',
         itemNights: '6 nights',
-        itemPrice: '£1399'
+        itemPrice: 'R32000'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ let EuropeDestinationsItems = [
         itemTitle: 'Green hotel',
         itemSubTitle: 'London, UK',
         itemNights: '5 nights',
-        itemPrice: '£999'
+        itemPrice: 'R22800'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ let EuropeDestinationsItems = [
         itemTitle: 'France hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '5 nights',
-        itemPrice: '£799'
+        itemPrice: 'R18200'
     }
 ];
 

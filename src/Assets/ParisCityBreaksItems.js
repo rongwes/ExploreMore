@@ -12,7 +12,7 @@ let ParisCityBreaksItems = [
         itemTitle: 'Paris hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '3 nights',
-        itemPrice: '£599'
+        itemPrice: 'R13700'
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ let ParisCityBreaksItems = [
         itemTitle: 'Castle hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '3 nights',
-        itemPrice: '£599'
+        itemPrice: 'R13700'
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ let ParisCityBreaksItems = [
         itemTitle: 'Old hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '2 nights',
-        itemPrice: '£799'
+        itemPrice: 'R18200'
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ let ParisCityBreaksItems = [
         itemTitle: 'France hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '3 nights',
-        itemPrice: '£399'
+        itemPrice: 'R9100'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ let ParisCityBreaksItems = [
         itemTitle: 'Paris hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '2 nights',
-        itemPrice: '£499'
+        itemPrice: 'R11400'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ let ParisCityBreaksItems = [
         itemTitle: 'Grand hotel',
         itemSubTitle: 'France, Paris',
         itemNights: '3 nights',
-        itemPrice: '£299'
+        itemPrice: 'R16400'
     }
 ];
 

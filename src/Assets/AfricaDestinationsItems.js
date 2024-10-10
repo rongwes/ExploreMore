@@ -12,7 +12,7 @@ let AfricaDestinationsItems = [
         itemTitle: 'Egypt resort',
         itemSubTitle: 'Africa, Egypt',
         itemNights: '5 nights',
-        itemPrice: '£1199'
+        itemPrice: 'R27450'
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ let AfricaDestinationsItems = [
         itemTitle: 'Morocco resort',
         itemSubTitle: 'Africa, Morocco',
         itemNights: '6 nights',
-        itemPrice: '£1599'
+        itemPrice: 'R36600'
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ let AfricaDestinationsItems = [
         itemTitle: 'Egypt resort',
         itemSubTitle: 'Africa, Egypt',
         itemNights: '7 nights',
-        itemPrice: '£1299'
+        itemPrice: 'R29740'
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ let AfricaDestinationsItems = [
         itemTitle: 'Egypt resort',
         itemSubTitle: 'Africa, Egypt',
         itemNights: '5 nights',
-        itemPrice: '£999'
+        itemPrice: 'R22800'
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ let AfricaDestinationsItems = [
         itemTitle: 'Morocco resort',
         itemSubTitle: 'Africa, Morocco',
         itemNights: '5 nights',
-        itemPrice: '£999'
+        itemPrice: 'R29700'
     }
 ];
 

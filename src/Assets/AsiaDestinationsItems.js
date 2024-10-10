@@ -12,7 +12,7 @@ let AsiaDestinationsItems = [
         itemTitle: 'Bali resort',
         itemSubTitle: 'Asia, Bali',
         itemNights: '5 nights',
-        itemPrice: '£1499'
+        itemPrice: 'R34370'
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ let AsiaDestinationsItems = [
         itemTitle: 'Thailand green resort',
         itemSubTitle: 'Asia, Thailand',
         itemNights: '7 nights',
-        itemPrice: '£1399'
+        itemPrice: 'R32000'
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ let AsiaDestinationsItems = [
         itemTitle: 'Bali resort',
         itemSubTitle: 'Asia, Bali',
         itemNights: '6 nights',
-        itemPrice: '£1599'
+        itemPrice: 'R36600'
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ let AsiaDestinationsItems = [
         itemTitle: 'Malaysia hotel',
         itemSubTitle: 'Asia, Malaysia',
         itemNights: '7 nights',
-        itemPrice: '£1399'
+        itemPrice: 'R32100'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ let AsiaDestinationsItems = [
         itemTitle: 'Thailand resort',
         itemSubTitle: 'Asia, Thailand',
         itemNights: '7 nights',
-        itemPrice: '£1499'
+        itemPrice: 'R34300'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ let AsiaDestinationsItems = [
         itemTitle: 'Malaysia hotel',
         itemSubTitle: 'Asia, Malaysia',
         itemNights: '5 nights',
-        itemPrice: '£999'
+        itemPrice: 'R22820'
     }
 ];
 

@@ -10,7 +10,7 @@ let RecentHolidaysItems = [
         itemTitle: 'Spain',
         itemDescription: '1 min walk to beach',
         itemNights: '4 nights',
-        itemPrice: '£499'
+        itemPrice: 'R11400'
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ let RecentHolidaysItems = [
         itemTitle: 'Portugal',
         itemDescription: 'On the beach',
         itemNights: '2 nights',
-        itemPrice: '£299'
+        itemPrice: 'R13200'
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ let RecentHolidaysItems = [
         itemTitle: 'Greece',
         itemDescription: '3 min walk to beach',
         itemNights: '3 nights',
-        itemPrice: '£799'
+        itemPrice: 'R18200'
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ let RecentHolidaysItems = [
         itemTitle: 'Maldives',
         itemDescription: 'On the beach',
         itemNights: '5 nights',
-        itemPrice: '£1499'
+        itemPrice: 'R34320'
     }
 ];
 

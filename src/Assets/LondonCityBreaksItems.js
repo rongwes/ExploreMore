@@ -12,7 +12,7 @@ let LondonCityBreaksItems = [
         itemTitle: 'London hotel',
         itemSubTitle: 'London, UK',
         itemNights: '2 nights',
-        itemPrice: '£399'
+        itemPrice: 'R9100'
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ let LondonCityBreaksItems = [
         itemTitle: 'Green hotel',
         itemSubTitle: 'London, UK',
         itemNights: '3 nights',
-        itemPrice: '£499'
+        itemPrice: 'R11400'
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ let LondonCityBreaksItems = [
         itemTitle: 'British hotel',
         itemSubTitle: 'London, UK',
         itemNights: '2 nights',
-        itemPrice: '£799'
+        itemPrice: 'R18200'
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ let LondonCityBreaksItems = [
         itemTitle: 'Corner hotel',
         itemSubTitle: 'London, UK',
         itemNights: '3 nights',
-        itemPrice: '£899'
+        itemPrice: 'R20500'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ let LondonCityBreaksItems = [
         itemTitle: 'Modern hotel',
         itemSubTitle: 'London, UK',
         itemNights: '2 nights',
-        itemPrice: '£599'
+        itemPrice: 'R13700'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ let LondonCityBreaksItems = [
         itemTitle: 'Dark hotel',
         itemSubTitle: 'London, UK',
         itemNights: '3 nights',
-        itemPrice: '£399'
+        itemPrice: 'R9100'
     }
 ];
 
