@@ -1,0 +1,109 @@
+/* Center the sign-in/sign-up form on the page */
+.signin-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7; /* Light background color */
+    padding: 20px; /* Padding for smaller screens */
+}
+
+/* Card Styling */
+.signin-signup-card {
+    background-color: white; /* White background for the card */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the card */
+    width: 350px;
+}
+
+/* Toggle Buttons for Sign In and Sign Up */
+.btn-group-toggle .btn, .btn {
+    border-radius: 0;
+    width: 50%; /* Evenly distribute width between the buttons */
+}
+
+.btn-light {
+    background-color: #f5f5f5; /* Light background for inactive state */
+}
+
+.btn-outline-dark, .active-tab {
+    background-color: #343a40 !important; /* Very dark color for active tab */
+    color: white !important; /* White text to contrast the dark background */
+    border: 2px solid #343a40; /* Dark border to match the active button */
+}
+
+button {
+    cursor: pointer;
+    width: 50%; /* Width of buttons equal */
+}
+
+/* Headings for Sign In/Sign Up */
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 6px;
+    height: 45px;
+    font-size: 1rem;
+}
+
+/* Labels */
+label {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Links Styling (like "Forgot Password") */
+a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Primary Button (e.g., "Sign In" or "Sign Up") */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot password link */
+.text-end a {
+    font-size: 0.85rem;
+}
+
+/* General Spacing */
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.my-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .signin-signup-container {
+        padding: 20px;
+    }
+}
