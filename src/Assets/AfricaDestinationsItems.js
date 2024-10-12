@@ -44,7 +44,7 @@ let AfricaDestinationsItems = [
         itemTitle: 'Morocco resort',
         itemSubTitle: 'Africa, Morocco',
         itemNights: '6 nights',
-        itemPrice: '£1299'
+        itemPrice: 'R24890'
     },
     {
         id: 6,

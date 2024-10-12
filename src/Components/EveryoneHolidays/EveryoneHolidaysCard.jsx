@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import ChevronRight from '../../Assets/Icons/chevron-right.svg';
+{/*import ChevronRight from '../../Assets/Icons/chevron-right.svg';*/}
 
 function EveryoneHolidaysCard(props) {
     return (
@@ -15,7 +15,7 @@ function EveryoneHolidaysCard(props) {
                     <p className='price my-2 fw-bold text-green'>{props.itemPrice}</p>
                     <p className='mb-0'>per person</p>
                 </Card.Body>
-                <img src={ChevronRight} className='me-3' alt="chevron-right" />
+                {/*<img src={ChevronRight} className='me-3' alt="chevron-right" />*/}
             </div>
         </Card>
     </div>

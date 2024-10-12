@@ -6,7 +6,7 @@ function FavouritesSection() {
     return (
         <div className='favourites-section my-4 my-sm-5'>
         <Container>
-            <h3 className='text-start text-uppercase fw-semibold mb-4 mb-sm-5'>Your favourites</h3>
+            <h3 className='text-start text-uppercase fw-semibold mb-4 mb-sm-5'>Awaiting you</h3> {/*Your favourites*/}
             <div className='row g-4'>
                 <div className='col-sm-6 col-lg-3'>
                     <div className='spa-div img-hover d-flex align-items-end justify-content-center rounded'>

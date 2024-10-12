@@ -17,7 +17,7 @@ function RecentHolidayCard(props) {
                             <strong>{props.itemPrice}</strong>pp
                         </li>
                     </ul>
-                    <Button variant='dark'>View Now</Button>
+                    {/*<Button variant='dark'>View Now</Button>*/}
                 </Card.Body>
             </div>
         </Card>
