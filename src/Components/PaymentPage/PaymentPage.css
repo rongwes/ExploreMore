@@ -1,0 +1,63 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.card-input, .expiry-input, .security-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.expiry-security {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expiry-input {
+    flex: 1;
+    margin-right: 10px; /* Space between the expiry date and security code */
+}
+
+.security-input {
+    flex: 1;
+}
+
+.price {
+    font-weight: bold; /* Make price bold */
+}
+
+.btn {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:disabled {
+    background-color: #ccc; /* Disabled button */
+}

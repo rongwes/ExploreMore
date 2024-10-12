@@ -6,20 +6,14 @@ function SignInSignUp() {
     const [isSignIn, setIsSignIn] = useState(true);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [name, setName] = useState(''); // Added state for name in signup
     const { login, signup } = useAuth(); // Using context for auth functions
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
-            if (isSignIn) {
-                await login(email, password); // Call the login function
-            } else {
-                await signup(name, email, password); // Pass name, email, and password to signup
-            }
-        } catch (error) {
-            console.error('Error during authentication:', error);
-            // Optionally show an error message to the user
+        if (isSignIn) {
+            await login(email, password); // Call the login function
+        } else {
+            await signup(email, password); // Call the signup function
         }
     };
 
@@ -52,7 +46,6 @@ function SignInSignUp() {
                                     placeholder='example@gmail.com' 
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
-                                    required
                                 />
                             </div>
                             <div className='form-group mb-3'>
@@ -63,7 +56,6 @@ function SignInSignUp() {
                                     placeholder='enter your password' 
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
-                                    required
                                 />
                             </div>
                             <div className='text-end mb-3'>
@@ -82,8 +74,6 @@ function SignInSignUp() {
                                     type='text' 
                                     className='form-control' 
                                     placeholder='Your Name' 
-                                    value={name}
-                                    onChange={(e) => setName(e.target.value)}
                                     required
                                 />
                             </div>
